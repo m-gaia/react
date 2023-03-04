@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+}
+
+.totoro {
+    position: fixed;
+    top:50%;
+    left:50%;
+    border-radius: 50%;
+    transform:translate(-50%,-50%);
+    min-width: 700px;
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/giphy1img.jpg);
+}
+
+.totoro_activo{
+    background-image: url(../img/giphy1.gif); 
+}
+
+
+ 
